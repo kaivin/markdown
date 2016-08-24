@@ -11,7 +11,6 @@
 
 &emsp;&emsp;例子如下，在markdown文档里加上一段HTML代码：
 
-
     <pre>
         <code>
             <ul>
@@ -21,6 +20,5 @@
             </ul>
         </code>
     </pre>
-
 
 &emsp;&emsp;要注意的是，HTML木块化标签之间的markdown格式的语法将不会被处理，例如上例中第一个li内的转义符并没有被转义成“&lt;”,“&gt;”。<br />
