@@ -15,10 +15,14 @@
         <code>
             <ul>
                 <li>这里是html标签显示会显示ul,li标签</li>
-                <li>这里是html标签显示</li>
-                <li>这里是html标签显示</li>
+                <li>#大标题</li>
+                <li>##二级标题</li>
+                <li>###三级标题</li>
+                <li>####四级标题</li>
+                <li>#####五级标题</li>
+                <li>######六级标题</li>
             </ul>
         </code>
     </pre>
 
-&emsp;&emsp;要注意的是，HTML木块化标签之间的markdown格式的语法将不会被处理，例如上例中第一个li内的转义符并没有被转义成“&lt;”,“&gt;”。<br />
+&emsp;&emsp;要注意的是，HTML模块化标签之间的markdown格式的语法将不会被处理，例如上例中markdown的标题语法标签并未被转译成标题文本。<br />
