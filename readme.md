@@ -50,10 +50,22 @@ Markdown是为了更简单方便地书写 HTML ，使我们更加专注于内容
 public static void main(String[]args){} //Java
 ```
 
-```javascipt
-document.getElementById("myH1").innerHTML="Welcome to my Homepage"; //javascipt
+```c
+int main(void)
+{
+    printf("Hello, world!");
+    return 0;
+} //C
 ```
 
-```c
-int main(int argc, char *argv[]) //C
+```Bash
+echo "hello GitHub" #Bash
+```
+
+```javascipt
+document.write("Hello World!") //javascipt
+```
+
+```cpp
+string &operator+(const string& A,const string& B) //cpp
 ```
