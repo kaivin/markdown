@@ -106,17 +106,17 @@ em space, U+2003 ISOpub<br />
   全方大的空白`&emsp;`或`&#8195;`<br />
 no-break space = non-breaking space, U+00A0 ISOnum<br />
     不断行的空白格`&nbsp;`或`&#160;`<br />
-一般行首输入两个全角空格（`&emsp;`）或四个半角空格（`&nbsp;`）进行缩进即可。
+一般行首输入两个全角空格（`&emsp;`）或八个半角空格（`&nbsp;`）进行缩进即可。
 
 语法：
 ```
 &emsp;&emsp;全角空格缩进
-&nbsp;&nbsp;&nbsp;&nbsp;半角空格缩进
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;半角空格缩进
 ```
 
-效果：
+效果：<br />
 &emsp;&emsp;全角空格缩进<br />
-&nbsp;&nbsp;&nbsp;&nbsp;半角空格缩进<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;半角空格缩进<br />
 对比以上两行文本已经缩进两个汉字宽度。
 
 
