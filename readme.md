@@ -34,7 +34,7 @@ Markdown是为了更简单方便地书写 HTML ，使我们更加专注于内容
 
 我们需要在代码的上一行和下一行用三个反引号标记。反引号就是数字1左边，Tab键上面的键。要实现语法高亮那么只要在  三个反引号之后加上你的编程语言即可（忽略大小写）。c++语言可以写成c++也可以是cpp。看代码：
 
-```
+```html
 <ul>
     <li>这里是html标签语法</li>
     <li># 大标题</li>
@@ -62,8 +62,8 @@ int main(void)
 echo "hello GitHub" #Bash
 ```
 
-```javascipt
-document.write("Hello World!") //javascipt
+```javascript
+document.write("Hello World!") //javascript
 ```
 
 ```cpp
