@@ -3,8 +3,8 @@
 
 ## 前言
 写这个算不上教程的文档说明，只是因为在我的小白进阶之路——学习github时，发现每个项目都会有一个readme.md。很好奇这.md后缀的是什么玩意，一探究竟之下，发现又学了点知识~，这里算是我的笔记吧~<br />
-那么.md后缀文件是什么呢？md就是markdown缩写，其实就是一种为了实现“易读易写”，适用于网络的书写语言。<br />
-GitHub 上每个项目要求提供Markdown格式的README.md文件，作为项目首页的说明文档。<br />
+
+md就是markdown缩写，GitHub 上每个项目要求提供Markdown格式的README.md文件，作为项目首页的说明文档。<br />
 
 ## 宗旨
 Markdown是一种轻量级标记语言，创始人为John Gruber。<br />
