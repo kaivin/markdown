@@ -101,6 +101,6 @@ string &operator+(const string& A,const string& B) //cpp
 如果你想使一段话中部分文字高亮显示，来起到突出强调的作用，那么可以把它用一对反引号把它包围起来。注意不是单引号，而是Tab上方，数字1左边的按键（注意使用英文输入法）。语法：
 
 ```
-`markdown`,`<code>`,`文本高亮`,`<div>`
+`markdown`,`<code>`,`文本高亮`,`&lt;div&gt;`,`&lt;p&gt;`
 ```
-效果：`markdown`,`<code>`,`文本高亮`,`<div>`
+效果：`markdown`,`<code>`,`文本高亮`,`&lt;div&gt;`,&lt;p&gt;
