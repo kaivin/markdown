@@ -141,10 +141,10 @@ no-break space = non-breaking space, U+00A0 ISOnum<br />
 # 特殊字符转义
 语法：
 ```
-©  &copy;  AT&T   AT&amp;T   4 < 5     4 &lt; 5    &lt;   &amp;    &gt;
+© ， &copy; ， AT&T ，  AT&amp;T ，  4 < 5  ，   4 &lt; 5  ，  &lt; ，  &amp;  ，  &gt;
 ```
 效果：
 
-©  &copy;  AT&T   AT&amp;T   4 < 5     4 &lt; 5    &lt;   &amp;    &gt;
+© ， &copy; ，  AT&T ，  AT&amp;T ，  4 < 5  ，   4 &lt; 5  ，  &lt; ，  &amp;  ，  &gt;
 
 当`<`，`>`用于标签的起始和结束标签且在文本段内显示时，在不让其高亮显示的情况下，需要对这两个符号进行转义`&lt;`，`&gt;`。
