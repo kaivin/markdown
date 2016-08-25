@@ -45,3 +45,15 @@ Markdown是为了更简单方便地书写 HTML ，使我们更加专注于内容
     <li>###### 六级标题</li>
 </ul>
 ```
+
+```java
+public static void main(String[]args){} //Java
+```
+
+```javascipt
+document.getElementById("myH1").innerHTML="Welcome to my Homepage"; //javascipt
+```
+
+```c
+int main(int argc, char *argv[]) //C
+```
