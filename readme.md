@@ -482,6 +482,9 @@ https://github.com/kaivin/markdown/raw/master/images/github.png
 [![我的知乎][zhihu_logo]][zhihu]
 [zhihu_logo]:https://github.com/kaivin/markdown/raw/master/images/zhihu.png "我的知乎"
 [zhihu]:https://www.zhihu.com/people/kay_vin "我的知乎"
+
+删除图片的alt属性：
+[![zhihu_logo]][zhihu]
 ```
 行内链接行内图片地址式：
 [![新浪微博](images/sina.png "我的新浪微博")]( http://weibo.com/kayvon "新浪微博")
@@ -498,5 +501,8 @@ https://github.com/kaivin/markdown/raw/master/images/github.png
 [![我的知乎][zhihu_logo]][zhihu]
 [zhihu_logo]:https://github.com/kaivin/markdown/raw/master/images/zhihu.png "我的知乎"
 [zhihu]:https://www.zhihu.com/people/kay_vin "我的知乎"
+
+删除图片的alt属性：
+[![zhihu_logo]][zhihu]
 
 ## 锚点链接
