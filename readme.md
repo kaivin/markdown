@@ -342,7 +342,7 @@ ID参考如下：
 [sina]:images/sina.png "我的新浪微博"
 ```
 行内式：
-![我的github](images/sina.png "我的github")
+![我的新浪微博](images/sina.png "我的新浪微博")
 
 参考式：
 ![我的新浪微博][sina]
@@ -445,7 +445,7 @@ https://github.com/kaivin/markdown/raw/master/images/github.png
 [img][ID]
 [ID]:URL title
 ```
-前文说过，超链接第一个中括号之起显示内容的作用，文本链接，可以直接输入要显示内容，而图片链接这里要显示图片，就需要将图片地址写在这里，所以，进一步语法为：
+前文说过，超链接第一个中括号只起显示内容的作用，文本链接，可以直接输入要显示内容，而图片链接这里要显示图片，就需要将图片地址写在这里，所以，进一步语法为：
 ```
 行内式：
 [![alt](URL title)]( URL title)
@@ -454,6 +454,6 @@ https://github.com/kaivin/markdown/raw/master/images/github.png
 [img][ID]
 [ID]:URL title
 ```
-[![新浪微博]]( http://weibo.com/kayvon "新浪微博")
+[![新浪微博](images/sina.png "我的新浪微博")]( http://weibo.com/kayvon "新浪微博")
 
 ## 锚点链接
