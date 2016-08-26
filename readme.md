@@ -336,12 +336,14 @@ ID参考如下：
 ```
 行内式：
 ![我的新浪微博](images/sina.png "我的新浪微博")
+
 参考式：
 ![我的新浪微博][sina]
 [sina]:images/sina.png "我的新浪微博"
 ```
 行内式：
 ![我的github](images/sina.png "我的github")
+
 参考式：
 ![我的新浪微博][sina]
 [sina]:images/sina.png "我的新浪微博"
@@ -351,12 +353,14 @@ ID参考如下：
 ```
 行内式：
 ![百度](https://ss0.bdstatic.com/5aV1bjqh_Q23odCf/static/superman/img/logo/bd_logo1_31bdc765.png "百度一下")
+
 参考式：
 ![百度][baidu]
 [baidu]:https://ss0.bdstatic.com/5aV1bjqh_Q23odCf/static/superman/img/logo/bd_logo1_31bdc765.png "百度一下"
 ```
 行内式：
 ![百度](https://ss0.bdstatic.com/5aV1bjqh_Q23odCf/static/superman/img/logo/bd_logo1_31bdc765.png "百度一下")
+
 参考式：
 ![百度][baidu]
 [baidu]:https://ss0.bdstatic.com/5aV1bjqh_Q23odCf/static/superman/img/logo/bd_logo1_31bdc765.png "百度一下"
@@ -367,12 +371,14 @@ ID参考如下：
 https://github.com/kaivin/markdown/raw/master/images/github.png
 行内式：
 ![我的github](https://github.com/kaivin/markdown/raw/master/images/github.png "我的github")
+
 参考式：
 ![我的github][github]
 [github]:https://github.com/kaivin/markdown/raw/master/images/github.png "我的github"
 ```
 行内式：
 ![我的github](images/github.png "我的github")
+
 参考式：
 ![我的github][github]
 [github]:images/github.png "我的github"
