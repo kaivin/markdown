@@ -516,7 +516,5 @@ https://github.com/kaivin/markdown/raw/master/images/github.png
 ```
 <kay_vin@qq.com>
 ```
-示例效果：
-
-<kay_vin@qq.com>
+示例效果：<kay_vin@qq.com> www.baidu.com
 ## 锚点链接
