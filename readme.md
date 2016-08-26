@@ -505,4 +505,18 @@ https://github.com/kaivin/markdown/raw/master/images/github.png
 删除图片的alt属性：
 [![zhihu_logo]][zhihu]
 
+***
+* 由以上示例可看出，在markdown中添加图片及在一段文本中添加链接最方便的便是参考式，其在文件中的语法最简便。而ID指向的链接也都集合在一起，方便修改及调用。
+* 所有超链接也和图片地址链接一样，链接到本仓库其他页面可使用相对路径，外部链接，直接复制外部链接即可。
+
+
+## 自动超链
+用尖括号包裹url，这样生成的url就是url本身
+示例代码：
+```
+<kay_vin@qq.com>
+```
+示例效果：
+
+<kay_vin@qq.com>
 ## 锚点链接
