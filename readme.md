@@ -349,21 +349,21 @@ ID参考如下：
 ![百度](images/github.png "百度一下")
 
 ![百度][baidu]
-[baidu]:https://ss0.bdstatic.com/5aV1bjqh_Q23odCf/static/superman/img/logo/bd_logo1_31bdc765.png "百度一下" //此句可与其他使用参考式的此句集中在一起，写在本文的任意的地方。
+[baidu]:https://ss0.bdstatic.com/5aV1bjqh_Q23odCf/static/superman/img/logo/bd_logo1_31bdc765.png "百度一下"
 ```
 ![百度](images/github.png "百度一下")
 
 ![百度][baidu]
-[baidu]:https://ss0.bdstatic.com/5aV1bjqh_Q23odCf/static/superman/img/logo/bd_logo1_31bdc765.png "百度一下" //此句可与其他使用参考式的此句集中在一起，写在本文的任意的地方。
+[baidu]:https://ss0.bdstatic.com/5aV1bjqh_Q23odCf/static/superman/img/logo/bd_logo1_31bdc765.png "百度一下"
 ### github仓库中的图片
 如果引用其他github仓库中的图片要注意格式：https://github.com/ 你的用户名 / 你的项目名 /raw/分支名/存放图片文件夹/图片，如：
 ```
-https://github.com/kaivin/markdown/raw/master/images/myImg.ipg
+https://github.com/kaivin/markdown/raw/master/images/github.png
 
-![我的github](images/github.png "我的github")
+![我的github](https://github.com/kaivin/markdown/raw/master/images/github.png "我的github")
 
 ![我的github][github]
-[github]:images/github.png "我的github"
+[github]:https://github.com/kaivin/markdown/raw/master/images/github.png "我的github"
 ```
 ![我的github](images/github.png "我的github")
 
