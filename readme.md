@@ -514,7 +514,7 @@ https://github.com/kaivin/markdown/raw/master/images/github.png
 用尖括号包裹url，这样生成的url就是url本身
 示例代码：
 ```
-kay_vin@qq.com <kay_vin@qq.com> www.baidu.com  github.com/kaivin/   <github.com/kaivin/>
+kay_vin@qq.com <kay_vin@qq.com> www.baidu.com   <github.com/kaivin/>  github.com/kaivin/   
 ```
-示例效果：kay_vin@qq.com <kay_vin@qq.com> www.baidu.com  github.com/kaivin/   <github.com/kaivin/>
+示例效果：kay_vin@qq.com <kay_vin@qq.com> www.baidu.com   <github.com/kaivin/>  github.com/kaivin/   
 ## 锚点链接
