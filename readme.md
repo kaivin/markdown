@@ -383,19 +383,77 @@ https://github.com/kaivin/markdown/raw/master/images/github.png
 ![我的github][github]
 [github]:images/github.png "我的github"
 
+#### tips
+* 图片地址的参考式中，其第二句`[ID]:URL title`，可将一个md文件中所有用到此句的集中在一起，写在此文件的任意位置，达到复用及修改方便的目的。
+* 图片地址的语法与链接中的文本链接以及图片链接，都属于链接的一种，所以，都可以用行内式及参考式这两种插入链接的方法。只是图片地址与超链接的语法识别有所不同，具体可看本文链接模块。
+* 在本例中，新浪图标及github图标调用的就是本仓库的图片，所以即可以使用相对路径，也可以使用调用github仓库中的图片的格式。若调用其他仓库，或其他github使用者仓库的图片，这里就需要做相应的修改。
 ***
 
 
 # 链接
+语法：
+```
+行内式：
+[content]( URL title)
+
+参考式：
+[content][ID]
+[ID]:URL title
+```
+* **超链接语法机构对比图片地址的语法结构，可以发现，不同之处，只在于两种语法的第一个中括号及图片地址多了一个`！`。**
+* **图片地址语法内第一个中括号内alt表示图片显示失败的替代文本文字，而超链接这里我给你取名content,主要是因为超链接有文本链接及图片链接，两种链接在这个中括号内的内容不同，但相同的是，都是显示内容的地方。**
+* **我将文本链接的此处命名为text,即显示文本，图片链接的此处命名为img,即显示图片。**
+* **此处的命名content,text,img均没有实际的意义，只是为了写出这个语法结构，与参考式中ID所在中括号一样，这些命名只代表本人对这个语法理解**
+
 ## 文本链接
-给一段文字加入超链接的格式是这样的` [ 要显示的文字 ]( 链接的地址 "title")`。比如：
+给一段文字加入超链接的语法如下：
 
 ```
+行内式：
+[text]( URL title)
+
+参考式：
+[text][ID]
+[ID]:URL title
+```
+```
+行内式：
 [我的github](https://github.com/kaivin/ "github")
+
+参考式：
+[我的github][github]
+[github]:https://github.com/kaivin/ "github"
 ```
 显示效果：
 
+行内式：
 [我的github](https://github.com/kaivin/ "github")
+
+参考式：
+[我的github][github]
+[github]:https://github.com/kaivin/ "github"
+
+
 ## 图片链接
+给图片加超链接语法如下：
+
+```
+行内式：
+[img]( URL title)
+
+参考式：
+[img][ID]
+[ID]:URL title
+```
+前文说过，超链接第一个中括号之起显示内容的作用，文本链接，可以直接输入要显示内容，而图片链接这里要显示图片，就需要将图片地址写在这里，所以，进一步语法为：
+```
+行内式：
+[![alt](URL title)]( URL title)
+
+参考式：
+[img][ID]
+[ID]:URL title
+```
+[![新浪微博]]( http://weibo.com/kayvon "新浪微博")
 
 ## 锚点链接
