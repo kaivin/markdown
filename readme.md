@@ -345,6 +345,7 @@ ID参考如下：
 参考式：
 ![我的新浪微博][sina]
 [sina]:images/sina.png "我的新浪微博"
+
 ### 网络图片
 如果是网络图片，复制该图片的网络链接地址即可。
 ```
@@ -359,6 +360,7 @@ ID参考如下：
 参考式：
 ![百度][baidu]
 [baidu]:https://ss0.bdstatic.com/5aV1bjqh_Q23odCf/static/superman/img/logo/bd_logo1_31bdc765.png "百度一下"
+
 ### github仓库中的图片
 如果引用其他github仓库中的图片要注意格式：https://github.com/ 你的用户名 / 你的项目名 /raw/分支名/存放图片文件夹/图片，如：
 ```
@@ -374,7 +376,10 @@ https://github.com/kaivin/markdown/raw/master/images/github.png
 参考式：
 ![我的github][github]
 [github]:images/github.png "我的github"
+
 ***
+
+
 # 链接
 ## 文本链接
 给一段文字加入超链接的格式是这样的` [ 要显示的文字 ]( 链接的地址 "title")`。比如：
