@@ -377,11 +377,11 @@ https://github.com/kaivin/markdown/raw/master/images/github.png
 [github]:https://github.com/kaivin/markdown/raw/master/images/github.png "我的github"
 ```
 行内式：
-![我的github](images/github.png "我的github")
+![我的github](https://github.com/kaivin/markdown/raw/master/images/github.png "我的github")
 
 参考式：
 ![我的github][github]
-[github]:images/github.png "我的github"
+[github]:https://github.com/kaivin/markdown/raw/master/images/github.png "我的github"
 
 #### tips
 * 图片地址的参考式中，其第二句`[ID]:URL title`，可将一个md文件中所有用到此句的集中在一起，写在此文件的任意位置，达到复用及修改方便的目的。
@@ -416,13 +416,14 @@ https://github.com/kaivin/markdown/raw/master/images/github.png
 [text][ID]
 [ID]:URL title
 ```
+示例代码：
 ```
 行内式：
 [我的github](https://github.com/kaivin/ "github")
 
 参考式：
-[我的github][github]
-[github]:https://github.com/kaivin/ "github"
+[我的github][githubs]
+[githubs]:https://github.com/kaivin/ "github"
 ```
 显示效果：
 
@@ -430,9 +431,10 @@ https://github.com/kaivin/markdown/raw/master/images/github.png
 [我的github](https://github.com/kaivin/ "github")
 
 参考式：
-[我的github][github]
-[github]:https://github.com/kaivin/ "github"
+[我的github][githubs]
+[githubs]:https://github.com/kaivin/ "github"
 
+* **此处我的github的ID换了个名字，这里的ID指向的是github的网址，而在图片地址一节中，有一个ID为github，其指向的是我这个项目在github上的图片路径。指向不同，ID不能冲突。**
 
 ## 图片链接
 给图片加超链接语法如下：
@@ -445,15 +447,56 @@ https://github.com/kaivin/markdown/raw/master/images/github.png
 [img][ID]
 [ID]:URL title
 ```
-前文说过，超链接第一个中括号只起显示内容的作用，文本链接，可以直接输入要显示内容，而图片链接这里要显示图片，就需要将图片地址写在这里，所以，进一步语法为：
+前文说过，超链接第一个中括号只起显示内容的作用，文本链接，可以直接输入要显示内容，而图片链接这里要显示图片，就需要将图片地址写在这里，所以，进一步语法可分为四类：
 ```
-行内式：
+行内链接行内图片地址式：
 [![alt](URL title)]( URL title)
 
-参考式：
-[img][ID]
+行内链接 图片参考式
+[![alt][ID]]( URL title)
+[ID]:URL title
+
+参考链接 图片行内式：
+[![alt](URL title)][ID]
+[ID]:URL title
+
+参考式图片链接
+[![alt][ID_IMG]][ID]
+[ID_IMG]:URL title
 [ID]:URL title
 ```
+示例代码：
+```
+行内链接行内图片地址式：
 [![新浪微博](images/sina.png "我的新浪微博")]( http://weibo.com/kayvon "新浪微博")
+
+行内链接 图片参考式：
+[![baidu][baidu]]]( http://www.baidu.com "baidu")
+[baidu]:https://ss0.bdstatic.com/5aV1bjqh_Q23odCf/static/superman/img/logo/bd_logo1_31bdc765.png "百度一下"
+
+参考链接 图片行内式：
+[![我的github](https://github.com/kaivin/markdown/raw/master/images/github.png "我的github")][githubs]
+[githubs]:https://github.com/kaivin/ "我的github"
+
+参考式图片链接：
+[![我的知乎][zhihu_logo]][zhihu]
+[zhihu_logo]:https://github.com/kaivin/markdown/raw/master/images/zhihu.png "我的知乎"
+[zhihu]:https://www.zhihu.com/people/kay_vin "我的知乎"
+```
+行内链接行内图片地址式：
+[![新浪微博](images/sina.png "我的新浪微博")]( http://weibo.com/kayvon "新浪微博")
+
+行内链接 图片参考式：
+[![baidu][baidu]]]( http://www.baidu.com "baidu")
+[baidu]:https://ss0.bdstatic.com/5aV1bjqh_Q23odCf/static/superman/img/logo/bd_logo1_31bdc765.png "百度一下"
+
+参考链接 图片行内式：
+[![我的github](https://github.com/kaivin/markdown/raw/master/images/github.png "我的github")][githubs]
+[githubs]:https://github.com/kaivin/ "我的github"
+
+参考式图片链接：
+[![我的知乎][zhihu_logo]][zhihu]
+[zhihu_logo]:https://github.com/kaivin/markdown/raw/master/images/zhihu.png "我的知乎"
+[zhihu]:https://www.zhihu.com/people/kay_vin "我的知乎"
 
 ## 锚点链接
