@@ -471,7 +471,7 @@ https://github.com/kaivin/markdown/raw/master/images/github.png
 [![新浪微博](images/sina.png "我的新浪微博")]( http://weibo.com/kayvon "新浪微博")
 
 行内链接 图片参考式：
-[![百度一下][baidu]]]( http://www.baidu.com "百度一下")
+[![百度一下][baidu]]( http://www.baidu.com "百度一下")
 [baidu]:https://ss0.bdstatic.com/5aV1bjqh_Q23odCf/static/superman/img/logo/bd_logo1_31bdc765.png "百度一下"
 
 参考链接 图片行内式：
@@ -487,7 +487,7 @@ https://github.com/kaivin/markdown/raw/master/images/github.png
 [![新浪微博](images/sina.png "我的新浪微博")]( http://weibo.com/kayvon "新浪微博")
 
 行内链接 图片参考式：
-[![百度一下][baidu]]]( http://www.baidu.com "百度一下")
+[![百度一下][baidu]]( http://www.baidu.com "百度一下")
 [baidu]:https://ss0.bdstatic.com/5aV1bjqh_Q23odCf/static/superman/img/logo/bd_logo1_31bdc765.png "百度一下"
 
 参考链接 图片行内式：
