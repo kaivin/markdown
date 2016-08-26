@@ -312,7 +312,7 @@ Markdown 插入图片有两种格式：行内式和参考式。
 
 * 一个惊叹号 `!`<br />
 * 接着一个方括号，alt表示图片显示失败时的替换文本,对应html中的alt属性（可省略）<br />
-* 接着一个小括号，url放图片的存放地址，title表示鼠标悬停在图片时的显示文本，对应html中的title属性，title要加引号（title可省略）
+* 接着一个小括号，url放图片的存放地址，title表示鼠标悬停在图片时的显示文本，对应html中的title属性，title需要加双引号或者单引号（title可省略）
 
 ## 参考式
 基本语法：
@@ -322,8 +322,8 @@ Markdown 插入图片有两种格式：行内式和参考式。
 ```
 * 参考式与行内式不同之处就是第一个方括号之后跟着的又是一个方括号、以及此语法分为两句，第一句写在用到此句的地方，而第二句通常与其他使用参考式的第二句集中在一起放在文章末尾。
 * ID是图片参考的名称，使用图片参考可以达到复用的目的，一般把全文所有的URL链接通过ID匹配，统一放在文章末尾，哪里需要用这个链接，直接通过`![alt][ID]`调用这个链接的ID即可。
-* 此语法第二行第一个中括号与第一行第二个中括号是相匹配的，两个中括号内的内容必须一致，才能调用该ID语法冒号后的链接地址。
-* 冒号后的写法与行内式小括号内写法一样，前者URL，后者为title，需加引号，title可以放在第二行。
+* 此语法第二行第一个中括号与第一行第二个中括号是相匹配的，两个中括号内的ID必须一致，才能调用该ID语法冒号后的链接地址，不过这里的ID不区分大小写，。
+* 冒号后的写法与行内式小括号内写法一样，前者URL，URL可用尖括号包围起来，如`<https://github.com>`后者为title，需加双引号或者单引号以及小括号，title可以放在第二行。
 
 ID参考如下：
 ```
@@ -331,14 +331,55 @@ ID参考如下：
 [github]:https://github.com/kaivin/ "我的github，欢迎关注"
 ```
 ## 图片地址
-### 本地图片
-图片的url地址，如果引用本仓库中的图片，直接使用相对路径就可了。
+### 本地图片/同主机资源
+图片的url地址，如果引用本图片或是项目本身的资源，直接使用相对路径就可了。
+```
+![我的github](images/github.png "我的github")
+
+![我的github][github]
+[github]:images/github.png "我的github"
+```
+![我的github](images/github.png "我的github")
+
+![我的github][github]
+[github]:images/github.png "我的github"
 ### 网络图片
 如果是网络图片，复制该图片的网络链接地址即可。
+```
+![百度](images/github.png "百度一下")
+
+![百度][baidu]
+[baidu]:https://ss0.bdstatic.com/5aV1bjqh_Q23odCf/static/superman/img/logo/bd_logo1_31bdc765.png "百度一下" //此句可与其他使用参考式的此句集中在一起，写在本文的任意的地方。
+```
+![百度](images/github.png "百度一下")
+
+![百度][baidu]
+[baidu]:https://ss0.bdstatic.com/5aV1bjqh_Q23odCf/static/superman/img/logo/bd_logo1_31bdc765.png "百度一下" //此句可与其他使用参考式的此句集中在一起，写在本文的任意的地方。
 ### github仓库中的图片
 如果引用其他github仓库中的图片要注意格式：https://github.com/ 你的用户名 / 你的项目名 /raw/分支名/存放图片文件夹/图片，如：
 ```
 https://github.com/kaivin/markdown/raw/master/images/myImg.ipg
+
+![我的github](images/github.png "我的github")
+
+![我的github][github]
+[github]:images/github.png "我的github"
 ```
+![我的github](images/github.png "我的github")
+
+![我的github][github]
+[github]:images/github.png "我的github"
 ***
 # 链接
+## 文本链接
+给一段文字加入超链接的格式是这样的 [ 要显示的文字 ]( 链接的地址 "title")。比如：
+
+```
+[我的github](https://github.com/kaivin/ "github")
+```
+显示效果：
+
+[我的github](https://github.com/kaivin/ "github")
+## 图片链接
+
+## 锚点链接
