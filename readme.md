@@ -492,7 +492,6 @@ https://github.com/kaivin/markdown/raw/master/images/github.png
 
 行内链接 图片参考式：
 [![百度一下][baidu]]( http://www.baidu.com "百度一下")
-[baidu]://www.baidu.com/img/bd_logo1.png "百度一下"
 
 参考链接 图片行内式：
 [![我的github](https://github.com/kaivin/markdown/raw/master/images/github.png "我的github")][githubs]
@@ -511,7 +510,6 @@ https://github.com/kaivin/markdown/raw/master/images/github.png
 
 行内链接 图片参考式：
 [![百度一下][baidu]]( http://www.baidu.com "百度一下")
-[baidu]://www.baidu.com/img/bd_logo1.png "百度一下"
 
 参考链接 图片行内式：
 [![我的github](https://github.com/kaivin/markdown/raw/master/images/github.png "我的github")][githubs]
