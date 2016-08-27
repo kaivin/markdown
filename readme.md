@@ -286,7 +286,7 @@ Markdown 使用星号（`*`）和底线（`_`）作为标记强调字词的符�
 
 \*这里的星号不起任何作用，只是普通符号\*
 
-## 反斜杠
+### 反斜杠
 Markdown 可以利用反斜杠来插入一些在语法中有其它意义的符号。如上例中的星号。而markdown还支持以下符号前面加反斜杠来帮助插入普通符号:
 ```
 \   反斜线
@@ -371,18 +371,18 @@ ID参考如下：
 如果是网络图片，复制该图片的网络链接地址即可。
 ```
 行内式：
-![百度](https://ss0.bdstatic.com/5aV1bjqh_Q23odCf/static/superman/img/logo/bd_logo1_31bdc765.png "百度一下")
+![百度](www.baidu.com/img/bd_logo1.png "百度一下")
 
 参考式：
 ![百度][baidu]
-[baidu]:https://ss0.bdstatic.com/5aV1bjqh_Q23odCf/static/superman/img/logo/bd_logo1_31bdc765.png "百度一下"
+[baidu]:www.baidu.com/img/bd_logo1.png "百度一下"
 ```
 行内式：
-![百度](https://ss0.bdstatic.com/5aV1bjqh_Q23odCf/static/superman/img/logo/bd_logo1_31bdc765.png "百度一下")
+![百度](www.baidu.com/img/bd_logo1.png "百度一下")
 
 参考式：
 ![百度][baidu]
-[baidu]:https://ss0.bdstatic.com/5aV1bjqh_Q23odCf/static/superman/img/logo/bd_logo1_31bdc765.png "百度一下"
+[baidu]:www.baidu.com/img/bd_logo1.png "百度一下"
 
 ### github仓库中的图片
 如果引用其他github仓库中的图片要注意格式：https://github.com/ 你的用户名 / 你的项目名 /raw/分支名/存放图片文件夹/图片，如：
@@ -492,7 +492,7 @@ https://github.com/kaivin/markdown/raw/master/images/github.png
 
 行内链接 图片参考式：
 [![百度一下][baidu]]( http://www.baidu.com "百度一下")
-[baidu]:https://ss0.bdstatic.com/5aV1bjqh_Q23odCf/static/superman/img/logo/bd_logo1_31bdc765.png "百度一下"
+[baidu]:www.baidu.com/img/bd_logo1.png "百度一下"
 
 参考链接 图片行内式：
 [![我的github](https://github.com/kaivin/markdown/raw/master/images/github.png "我的github")][githubs]
@@ -511,7 +511,7 @@ https://github.com/kaivin/markdown/raw/master/images/github.png
 
 行内链接 图片参考式：
 [![百度一下][baidu]]( http://www.baidu.com "百度一下")
-[baidu]:https://ss0.bdstatic.com/5aV1bjqh_Q23odCf/static/superman/img/logo/bd_logo1_31bdc765.png "百度一下"
+[baidu]:www.baidu.com/img/bd_logo1.png "百度一下"
 
 参考链接 图片行内式：
 [![我的github](https://github.com/kaivin/markdown/raw/master/images/github.png "我的github")][githubs]
