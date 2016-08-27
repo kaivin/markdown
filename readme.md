@@ -115,6 +115,7 @@ string &operator+(const string& A,const string& B) //cpp
 # 标题
 Markdown 支持两种标题的语法，类 Setext 和类 atx 形式。
 
+## 类 Setext 形式
 类 Setext 形式是用底线的形式，利用 = （最高阶标题）和 - （第二阶标题）
 
 示例代码：
@@ -137,6 +138,7 @@ Markdown 支持两种标题的语法，类 Setext 和类 atx 形式。
 任何数量的`=`和`-`都可以有效果。而这种类型的表现形式，也只有这两级标题显示。
 
 ***
+## 类 Atx 形式
 类 Atx 形式则是在行首插入 1 到 6 个 # ，对应到标题 1 到 6 阶，你可以选择性地「闭合」类 atx 样式的标题，这纯粹只是美观用的，若是觉得这样看起来比较舒适，你就可以在行尾加上 #，而行尾的 # 数量也不用和开头一样（行首的井字符数量决定标题的阶数）
 
 示例代码：
@@ -321,7 +323,7 @@ Markdown 插入图片有两种格式：行内式和参考式。
 [ID]:URL title
 ```
 * 参考式与行内式不同之处就是第一个方括号之后跟着的又是一个方括号、以及此语法分为两句，第一句写在用到此句的地方，而第二句通常与其他使用参考式的第二句集中在一起放在文章末尾。
-* ID是图片参考的名称，使用图片参考可以达到复用的目的，一般把全文所有的URL链接通过ID匹配，统一放在文章末尾，哪里需要用这个链接，直接通过`![alt][ID]`调用这个链接的ID即可。
+* ID是图片参考的名称，用来定义链接地址及title，使用图片参考可以达到复用的目的，一般把全文所有的URL链接通过ID匹配，统一放在文章末尾，哪里需要用这个链接，直接通过`![alt][ID]`调用这个链接的ID即可。
 * 此语法第二行第一个中括号与第一行第二个中括号是相匹配的，两个中括号内的ID必须一致，才能调用该ID语法冒号后的链接地址，不过这里的ID不区分大小写，。
 * 冒号后的写法与行内式小括号内写法一样，前者URL，URL可用尖括号包围起来，如`<https://github.com>`后者为title，需加双引号或者单引号以及小括号，title可以放在第二行。
 
@@ -387,6 +389,7 @@ https://github.com/kaivin/markdown/raw/master/images/github.png
 * 图片地址的参考式中，其第二句`[ID]:URL title`，可将一个md文件中所有用到此句的集中在一起，写在此文件的任意位置，达到复用及修改方便的目的。
 * 图片地址的语法与链接中的文本链接以及图片链接，都属于链接的一种，所以，都可以用行内式及参考式这两种插入链接的方法。只是图片地址与超链接的语法识别有所不同，具体可看本文链接模块。
 * 在本例中，新浪图标及github图标调用的就是本仓库的图片，所以即可以使用相对路径，也可以使用调用github仓库中的图片的格式。若调用其他仓库，或其他github使用者仓库的图片，这里就需要做相应的修改。
+
 ***
 
 
@@ -400,7 +403,7 @@ https://github.com/kaivin/markdown/raw/master/images/github.png
 [content][ID]
 [ID]:URL title
 ```
-* **超链接语法机构对比图片地址的语法结构，可以发现，不同之处，只在于两种语法的第一个中括号及图片地址多了一个`！`。**
+* **超链接语法结构对比图片地址的语法结构，可以发现，不同之处，只在于两种语法的第一个中括号及图片地址多了一个`！`。**
 * **图片地址语法内第一个中括号内alt表示图片显示失败的替代文本文字，而超链接这里我给你取名content,主要是因为超链接有文本链接及图片链接，两种链接在这个中括号内的内容不同，但相同的是，都是显示内容的地方。**
 * **我将文本链接的此处命名为text,即显示文本，图片链接的此处命名为img,即显示图片。**
 * **此处的命名content,text,img均没有实际的意义，只是为了写出这个语法结构，与参考式中ID所在中括号一样，这些命名只代表本人对这个语法理解**
@@ -517,4 +520,37 @@ https://github.com/kaivin/markdown/raw/master/images/github.png
 kay_vin@qq.com <kay_vin@qq.com> www.baidu.com   <https://github.com/kaivin/>  https://github.com/kaivin/   
 ```
 示例效果：kay_vin@qq.com <kay_vin@qq.com> www.baidu.com   <https://github.com/kaivin/>  https://github.com/kaivin/   
+
+## 隐式超链
+隐式链接标记功能让你可以省略指定链接ID，这种情形下，链接ID会视为等同于链接文字，要用隐式链接标记只要在链接文字后面加上一个空的方括号。然后和参考是一样定义链接的地址即可。
+语法：
+```
+[text][]
+[text]:URL title
+```
+你可以像参考式一样把'[text]:URL title'这句放在你的文档的任何地方，可以是一个段落后方本段落的所有链接，也可以全部放在文档最后面，就像是注解一样。
+
+下面是参考式及隐式语法示例：
+```
+参考式：
+我这里分享[我的github][githubs]以及[新浪微博][sinas]和[知乎][zhihu]链接给大家~
+[sinas]:http://weibo.com/kayvon "新浪微博"
+
+隐式超链：
+我这里分享[我的github][]以及[新浪微博][]和[知乎][]链接给大家~
+[我的github]:https://github.com/kaivin/ "我的github"
+[新浪微博]:http://weibo.com/kayvon "新浪微博"
+[知乎]:https://www.zhihu.com/people/kay_vin "我的知乎"
+```
+示例效果：
+参考式：
+我这里分享[我的github][githubs]以及[新浪微博][sinas]和[知乎][zhihu]链接给大家~
+[sinas]:http://weibo.com/kayvon "新浪微博"
+
+隐式超链：
+我这里分享[我的github][]以及[新浪微博][]和[知乎][]链接给大家~
+[我的github]:https://github.com/kaivin/ "我的github"
+[新浪微博]:http://weibo.com/kayvon "新浪微博"
+[知乎]:https://www.zhihu.com/people/kay_vin "我的知乎"
+
 ## 锚点链接
