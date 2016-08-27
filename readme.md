@@ -378,7 +378,7 @@ ID参考如下：
 [baidu]://www.baidu.com/img/bd_logo1.png "百度一下"
 ```
 行内式：
-![百度](//www.baidu.com/img/bd_logo1.png "百度一下")
+![百度](https://www.baidu.com/img/bd_logo1.png "百度一下")
 
 参考式：
 ![百度][baidu]
