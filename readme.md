@@ -286,6 +286,23 @@ Markdown 使用星号（`*`）和底线（`_`）作为标记强调字词的符�
 
 \*这里的星号不起任何作用，只是普通符号\*
 
+## 反斜杠
+Markdown 可以利用反斜杠来插入一些在语法中有其它意义的符号。如上例中的星号。而markdown还支持以下符号前面加反斜杠来帮助插入普通符号:
+```
+\   反斜线
+`   反引号
+*   星号
+_   底线
+{}  花括号
+[]  方括号
+()  括弧
+#   井字号
++   加号
+-   减号
+.   英文句点
+!   惊叹号
+```
+
 ***
 
 # 特殊字符转义
@@ -514,12 +531,17 @@ https://github.com/kaivin/markdown/raw/master/images/github.png
 
 
 ## 自动超链
+Markdown 支持以比较简短的自动链接形式来处理网址和电子邮件信箱，只要是用尖括号包起来， Markdown 就会自动把它转成链接。一般网址的链接文字就和链接地址一样，不过实测并没卵用~ 邮件并不能直接发邮件，也许是我新学知道的太少~ 至少目前我并不知道这自动超链有什么用~。
+
 用尖括号包裹url，这样生成的url就是url本身
+
 示例代码：
 ```
 kay_vin@qq.com <kay_vin@qq.com> www.baidu.com   <https://github.com/kaivin/>  https://github.com/kaivin/   
 ```
 示例效果：kay_vin@qq.com <kay_vin@qq.com> www.baidu.com   <https://github.com/kaivin/>  https://github.com/kaivin/   
+
+* 从示例中可看出 用不用尖括号并无什么区别~。这一点有待考证...
 
 ## 隐式超链
 隐式链接标记功能让你可以省略指定链接ID，这种情形下，链接ID会视为等同于链接文字，要用隐式链接标记只要在链接文字后面加上一个空的方括号。然后和参考是一样定义链接的地址即可。
@@ -553,4 +575,5 @@ kay_vin@qq.com <kay_vin@qq.com> www.baidu.com   <https://github.com/kaivin/>  ht
 [新浪微博]:http://weibo.com/kayvon "新浪微博"
 [知乎]:https://www.zhihu.com/people/kay_vin "我的知乎"
 
+* 此例参考式中githubs以及zhihu这两个ID，我在上文已经定义过，所以这里可以直接复用。
 ## 锚点链接
