@@ -371,18 +371,18 @@ ID参考如下：
 如果是网络图片，复制该图片的网络链接地址即可。
 ```
 行内式：
-![百度](//www.baidu.com/img/bd_logo1.png "百度一下")
+![百度](https://www.baidu.com/img/bd_logo1.png "百度一下")
 
 参考式：
 ![百度][baidu]
-[baidu]://www.baidu.com/img/bd_logo1.png "百度一下"
+[baidu]:https://www.baidu.com/img/bd_logo1.png "百度一下"
 ```
 行内式：
 ![百度](https://www.baidu.com/img/bd_logo1.png "百度一下")
 
 参考式：
 ![百度][baidu]
-[baidu]://www.baidu.com/img/bd_logo1.png "百度一下"
+[baidu]:https://www.baidu.com/img/bd_logo1.png "百度一下"
 
 ### github仓库中的图片
 如果引用其他github仓库中的图片要注意格式：https://github.com/ 你的用户名 / 你的项目名 /raw/分支名/存放图片文件夹/图片，如：
