@@ -189,25 +189,35 @@ Markdown 支持两种标题的语法，类 Setext 和类 atx 形式。
 
 ## 文本首行缩进 空格
 由于在markdown中空格大部分时候都是起着排版控制作用，因此没法在行首或格式控制符之后输入空格。
+普通段落一般都是顶格开始，无法使用 空格 或 tab 来缩进，包括引用标记符（>）、列表标记符（bullet list indicator）后面的空格都无法实现缩进。
+如果硬要输入空格显示占位缩进效果，可以嵌入空格对应的 HTML Entity 实体码。HTML 转义字符串（Escape Sequence），即字符实体（Character Entity）。字符实体由三部分构成：
 
-en space, U+2002 ISOpub<br />
-半方大的空白`&ensp;`或`&#8194;`<br />
-em space, U+2003 ISOpub<br />
-  全方大的空白`&emsp;`或`&#8195;`<br />
+  1.第一部分是一个 & （ampersand）符号；
+  2.第二部分是实体（Entity）名字；或者 # 加上实体编号（Entity Code）；
+  3.第三部分是一个分号 ; （semicolon）。
+
+HTML提供了5种空格实体（space entity），它们拥有不同的宽度，非断行空格（`&nbsp;`）是常规空格的宽度，可运行于所有主流浏览器。其他几种空格（ `&ensp;`、`&emsp;`、`&thinsp;`、`&zwnj;`、`&zwj;`）在不同浏览器中宽度各异。
+
 no-break space = non-breaking space, U+00A0 ISOnum<br />
-    不断行的空白格`&nbsp;`或`&#160;`<br />
-一般行首输入两个全角空格（`&emsp;`）或八个半角空格（`&nbsp;`）进行缩进即可。
+    键盘空格`&nbsp;`或`&#160;`<br />
+en space, U+2002 ISOpub<br />
+    半角空格`&ensp;`或`&#8194;`<br />
+em space, U+2003 ISOpub<br />
+    全角空格`&emsp;`或`&#8195;`<br />
 
-语法：
+语法示例：
 ```
-&emsp;&emsp;全角空格缩进
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;半角空格缩进
+  普通自然行行首敲两个空格无占位缩进效果
+&nbsp;&nbsp;&nbsp;&nbsp;该行行首添加了4个键盘空格缩进`&nbsp;`
+&ensp;&ensp;&ensp;&ensp;该行行首添加了4个半角空格`&nsp;`
+&emsp;&emsp;&emsp;&emsp;该行行首添加了4个全角空格`&emsp;`
 ```
 
-效果：<br />
-&emsp;&emsp;全角空格缩进<br />
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;半角空格缩进<br />
-对比以上两行文本已经缩进两个汉字宽度。
+效果示例：<br />
+  普通自然行行首敲两个空格无占位缩进效果<br />
+&nbsp;&nbsp;&nbsp;&nbsp;该行行首添加了4个键盘空格缩进`&nbsp;`<br />
+&ensp;&ensp;&ensp;&ensp;该行行首添加了4个半角空格`&nsp;`<br />
+&emsp;&emsp;&emsp;&emsp;该行行首添加了4个全角空格`&emsp;`
 
 ***
 
