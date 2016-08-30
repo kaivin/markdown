@@ -143,13 +143,13 @@ _ _ _
 
 这是普通段落，下面开始缩进，以代码形式显示：
     <ul>
-        <li>这里是html标签语法</li>
-        <li># 大标题</li>
-        <li>## 二级标题</li>
-        <li>### 三级标题</li>
-        <li>#### 四级标题</li>
-        <li>##### 五级标题</li>
-        <li>###### 六级标题</li>
+    <li>这里是html标签语法</li>
+    <li># 大标题</li>
+    <li>## 二级标题</li>
+    <li>### 三级标题</li>
+    <li>#### 四级标题</li>
+    <li>##### 五级标题</li>
+    <li>###### 六级标题</li>
     </ul>
 这里没有再缩进从上一行之后开始，结束代码显示。
 ***
@@ -752,6 +752,21 @@ GitHub的markdown语法在标准的markdown语法基础上做了扩充，称之�
 ## 围栏式代码块
 GFM语法需要我们在代码的上一行和下一行用三个反引号来标记代码区块。反引号就是数字1左边，Tab键上面的键(注意使用英文输入法)。而且还可以在代码块前加上语言类型标识，Github 会自动识别语言，给语法着色、代码加亮。要实现语法高亮只要在三个反引号之后加上你的编程语言即可（忽略大小写）。如html代码只需在开头三个反引号之后加上html即可，c++语言可以写成c++也可以是cpp。看代码：
 
+语法示例：
+```
+```html
+<ul>
+    <li>这里是html标签语法</li>
+    <li># 大标题</li>
+    <li>## 二级标题</li>
+    <li>### 三级标题</li>
+    <li>#### 四级标题</li>
+    <li>##### 五级标题</li>
+    <li>###### 六级标题</li>
+</ul>
+```
+```
+
 ```html
 <ul>
     <li>这里是html标签语法</li>
@@ -809,7 +824,7 @@ markdown会将超链接地址转换为：<a href="https://github.com/kaivin/">ht
 ```
 示例效果：kay_vin@qq.com <kay_vin@qq.com> www.baidu.com   <https://github.com/kaivin/>  https://github.com/kaivin/   
 
-而在浏览器里，邮件其实是被转换为<a href="mailto:kay_vin@qq.com">kay_vin@qq.com</a>
+而在浏览器里，邮件其实是被转换为`<a href="mailto:kay_vin@qq.com">kay_vin@qq.com</a>`
 
 
 ## 任务清单
