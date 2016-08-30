@@ -954,7 +954,7 @@ GFM语法需要我们在代码的上一行和下一行用三个反引号来标�
     <li>###### 六级标题</li>
 </ul>
 ```
-等多其他语言：
+更多其他语言：
 ```java
 public static void main(String[]args){} //Java
 ```
