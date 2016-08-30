@@ -145,7 +145,9 @@ _ _ _
 
     这是一个代码块
     document.write("Hello World!")
-    
+    &lt;ul&gt;
+    &lt;li&gt;这里显示HTML代码&lt;/li&gt;
+    &lt;/ul &gt;
 这里没有再缩进从上一行之后开始，结束代码显示。
 ***
 
