@@ -110,7 +110,7 @@
 | `:rage1:`                           | :rage1:                           | `:rage2:`                           | :rage2:                           |
 | `:rage3:`                           | :rage3:                           | `:rage4:`                           | :rage4:                           |
 | `:suspect:`                         | :suspect:                         | `:trollface:`                       | :trollface:                       |
-| `:anger:`                           | :anger:                           | ``                                  |                                   |
+| `:anger:`                           | :anger:                           |                                     |                                   |
 
 ***
 
