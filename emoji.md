@@ -116,6 +116,13 @@
 
 # 自然
 
+| 语法                                | 预览                               | 语法                                | 预览                               |
+| :---------------------------------: | :-------------------------------: | :---------------------------------: | :-------------------------------: |
+| `:crescent_moon:`                          | :crescent_moon:                          | `:smile:`                           | :smile:                           |
+| `:dizzy_face:`                      | :dizzy_face:                      | `:laughing:`                        | :laughing:                        |
+| `:blush:`                           | :blush:                           | `:smiley:`                          | :smiley:                          |
+| `:relaxed:`                         | :relaxed:                         | `:smirk:`                           | :smirk:                           |
+
 :sunny:
 :umbrella:
 :cloud:
@@ -610,6 +617,13 @@
 ***
 
 # 符号
+
+| 语法                                | 预览                               | 语法                                | 预览                               |
+| :---------------------------------: | :-------------------------------: | :---------------------------------: | :-------------------------------: |
+| `:black_large_square:`                          | :black_large_square:                          | `:smile:`                           | :smile:                           |
+| `:dizzy_face:`                      | :dizzy_face:                      | `:laughing:`                        | :laughing:                        |
+| `:blush:`                           | :blush:                           | `:smiley:`                          | :smiley:                          |
+| `:relaxed:`                         | :relaxed:                         | `:smirk:`                           | :smirk:                           |
 
 :one:
 :two:
