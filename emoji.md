@@ -446,112 +446,62 @@
 
 # 地点
 
-:house:
-:house_with_garden:
-:school:
-:office:
-:post_office:
-:hospital:
-:bank:
-:convenience_store:
-:love_hotel:
-:hotel:
-:wedding:
-:church:
-:department_store:
-:european_post_office:
-:city_sunrise:
-:city_sunset:
-:japanese_castle:
-:european_castle:
-:tent:
-:factory:
-:tokyo_tower:
-:japan:
-:mount_fuji:
-:sunrise_over_mountains:
-:sunrise:
-:stars:
-:statue_of_liberty:
-:bridge_at_night:
-:carousel_horse:
-:rainbow:
-:ferris_wheel:
-:fountain:
-:roller_coaster:
-:ship:
-:speedboat:
-:boat:
-:sailboat:
-:rowboat:
-:anchor:
-:rocket:
-:airplane:
-:helicopter:
-:steam_locomotive:
-:tram:
-:mountain_railway:
-:bike:
-:aerial_tramway:
-:suspension_railway:
-:mountain_cableway:
-:tractor:
-:blue_car:
-:oncoming_automobile:
-:car:
-:red_car:
-:taxi:
-:oncoming_taxi:
-:articulated_lorry:
-:bus:
-:oncoming_bus:
-:rotating_light:
-:police_car:
-:oncoming_police_car:
-:fire_engine:
-:ambulance:
-:minibus:
-:truck:
-:train:
-:station:
-:train2:
-:bullettrain_front:
-:bullettrain_side:
-:light_rail:
-:monorail:
-:railway_car:
-:trolleybus:
-:ticket:
-:fuelpump:
-:vertical_traffic_light:
-:traffic_light:
-:warning:
-:construction:
-:beginner:
-:atm:
-:slot_machine:
-:busstop:
-:barber:
-:hotsprings:
-:checkered_flag:
-:crossed_flags:
-:izakaya_lantern:
-:moyai:
-:circus_tent:
-:performing_arts:
-:round_pushpin:
-:triangular_flag_on_post:
-:jp:
-:kr:
-:cn:
-:us:
-:fr:
-:es:
-:it:
-:ru:
-:gb:
-:uk:
-:de:
+| 语法                                | 预览                               | 语法                                | 预览                               |
+| :---------------------------------: | :-------------------------------: | :---------------------------------: | :-------------------------------: |
+| `:house:`                           | :house:                           | `:house_with_garden:`               | :house_with_garden:               |
+| `:school:`                          | :school:                          | `:office:`                          | :office:                          |
+| `:post_office:`                     | :post_office:                     | `:hospital:`                        | :hospital:                        |
+| `:bank:`                            | :bank:                            | `:convenience_store:`               | :convenience_store:               |
+| `:love_hotel:`                      | :love_hotel:                      | `:hotel:`                           | :hotel:                           |
+| `:wedding:`                         | :wedding:                         | `:church:`                          | :church:                          |
+| `:department_store:`                | :department_store:                | `:european_post_office:`            | :european_post_office:            |
+| `:city_sunrise:`                    | :city_sunrise:                    | `:city_sunset:`                     | :city_sunset:                     |
+| `:japanese_castle:`                 | :japanese_castle:                 | `:european_castle:`                 | :european_castle:                 |
+| `:tent:`                            | :tent:                            | `:factory:`                         | :factory:                         |
+| `:tokyo_tower:`                     | :tokyo_tower:                     | `:japan:`                           | :japan:                           |
+| `:mount_fuji:`                      | :mount_fuji:                      | `:sunrise_over_mountains:`          | :sunrise_over_mountains:          |
+| `:sunrise:`                         | :sunrise:                         | `:stars:`                           | :stars:                           |
+| `:statue_of_liberty:`               | :statue_of_liberty:               | `:bridge_at_night:`                 | :bridge_at_night:                 |
+| `:carousel_horse:`                  | :carousel_horse:                  | `:rainbow:`                         | :rainbow:                         |
+| `:ferris_wheel:`                    | :ferris_wheel:                    | `:fountain:`                        | :fountain:                        |
+| `:roller_coaster:`                  | :roller_coaster:                  | `:ship:`                            | :ship:                            |
+| `:speedboat:`                       | :speedboat:                       | `:boat:`                            | :boat:                            |
+| `:sailboat:`                        | :sailboat:                        | `:rowboat:`                         | :rowboat:                         |
+| `:anchor:`                          | :anchor:                          | `:rocket:`                          | :rocket:                          |
+| `:airplane:`                        | :airplane:                        | `:helicopter:`                      | :helicopter:                      |
+| `:steam_locomotive:`                | :steam_locomotive:                | `:tram:`                            | :tram:                            |
+| `:mountain_railway:`                | :mountain_railway:                | `:bike:`                            | :bike:                            |
+| `:aerial_tramway:`                  | :aerial_tramway:                  | `:suspension_railway:`              | :suspension_railway:              |
+| `:mountain_cableway:`               | :mountain_cableway:               | `:tractor:`                         | :tractor:                         |
+| `:blue_car:`                        | :blue_car:                        | `:oncoming_automobile:`             | :oncoming_automobile:             |
+| `:car:`                             | :car:                             | `:red_car:`                         | :red_car:                         |
+| `:taxi:`                            | :taxi:                            | `:oncoming_taxi:`                   | :oncoming_taxi:                   |
+| `:articulated_lorry:`               | :articulated_lorry:               | `:bus:`                             | :bus:                             |
+| `:oncoming_bus:`                    | :oncoming_bus:                    | `:rotating_light:`                  | :rotating_light:                  |
+| `:police_car:`                      | :police_car:                      | `:oncoming_police_car:`             | :oncoming_police_car:             |
+| `:fire_engine:`                     | :fire_engine:                     | `:ambulance:`                       | :ambulance:                       |
+| `:minibus:`                         | :minibus:                         | `:truck:`                           | :truck:                           |
+| `:train:`                           | :train:                           | `:station:`                         | :station:                         |
+| `:train2:`                          | :train2:                          | `:bullettrain_front:`               | :bullettrain_front:               |
+| `:bullettrain_side:`                | :bullettrain_side:                | `:light_rail:`                      | :light_rail:                      |
+| `:monorail:`                        | :monorail:                        | `:railway_car:`                     | :railway_car:                     |
+| `:trolleybus:`                      | :trolleybus:                      | `:ticket:`                          | :ticket:                          |
+| `:fuelpump:`                        | :fuelpump:                        | `:vertical_traffic_light:`          | :vertical_traffic_light:          |
+| `:traffic_light:`                   | :traffic_light:                   | `:warning:`                         | :warning:                         |
+| `:construction:`                    | :construction:                    | `:beginner:`                        | :beginner:                        |
+| `:atm:`                             | :atm:                             | `:slot_machine:`                    | :slot_machine:                    |
+| `:busstop:`                         | :busstop:                         | `:barber:`                          | :barber:                          |
+| `:hotsprings:`                      | :hotsprings:                      | `:checkered_flag:`                  | :checkered_flag:                  |
+| `:crossed_flags:`                   | :crossed_flags:                   | `:izakaya_lantern:`                 | :izakaya_lantern:                 |
+| `:moyai:`                           | :moyai:                           | `:circus_tent:`                     | :circus_tent:                     |
+| `:performing_arts:`                 | :performing_arts:                 | `:round_pushpin:`                   | :round_pushpin:                   |
+| `:triangular_flag_on_post:`         | :triangular_flag_on_post:         | `:jp:`                              | :jp:                              |
+| `:kr:`                              | :kr:                              | `:cn:`                              | :cn:                              |
+| `:us:`                              | :us:                              | `:fr:`                              | :fr:                              |
+| `:es:`                              | :es:                              | `:it:`                              | :it:                              |
+| `:ru:`                              | :ru:                              | `:gb:`                              | :gb:                              |
+| `:uk:`                              | :uk:                              | `:de:`                              | :de:                              |
+
 
 ***
 
