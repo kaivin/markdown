@@ -882,6 +882,16 @@ a 自动排序第四行
         <td align="center">表格项2</td>
         <td align="right">表格项2</td>
     </tr>
+    <tr>
+        <td align="left">给定一个参考项</td>
+        <td align="center">可看出其对齐的内容</td>
+        <td align="right">是否如实实现了各种对齐</td>
+    </tr>
+    <tr>
+        <td align="left">有多行表格</td>
+        <td align="center">参考依据</td>
+        <td align="right">一目了然</td>
+    </tr>
 </table>
 
 也可以使用markdown语法表格：
