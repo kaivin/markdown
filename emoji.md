@@ -118,11 +118,12 @@
 
 | 语法                                | 预览                               | 语法                                | 预览                               |
 | :---------------------------------: | :-------------------------------: | :---------------------------------: | :-------------------------------: |
-| `:crescent_moon:`                          | :crescent_moon:                          | `:smile:`                           | :smile:                           |
+| `:crescent_moon:`                          | :crescent_moon:                          | `:simple_smile:`                           | :simple_smile:                           |
 | `:dizzy_face:`                      | :dizzy_face:                      | `:laughing:`                        | :laughing:                        |
 | `:blush:`                           | :blush:                           | `:smiley:`                          | :smiley:                          |
 | `:relaxed:`                         | :relaxed:                         | `:smirk:`                           | :smirk:                           |
 
+:simple_smile:
 :sunny:
 :umbrella:
 :cloud:
