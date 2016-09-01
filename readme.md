@@ -622,10 +622,11 @@ https://github.com/kaivin/markdown/raw/master/images/github.png
 [sinas]:http://weibo.com/kayvon "新浪微博"
 
 隐式超链：
-我这里分享[我的github][]以及[新浪微博][]和[知乎][]链接给大家~
+我这里分享[我的github][]以及[新浪微博][]和[知乎][]链接给大家~[emoji][]
 [我的github]:https://github.com/kaivin/ "我的github"
 [新浪微博]:http://weibo.com/kayvon "新浪微博"
 [知乎]:https://www.zhihu.com/people/kay_vin "我的知乎"
+[emoji]:https://github.com/kaivin/markdown/blob/master/emoji.md "emoji表情"
 
 * 此例参考式中githubs以及zhihu这两个ID，我在上文已经定义过，所以这里可以直接复用。
 
