@@ -622,7 +622,7 @@ https://github.com/kaivin/markdown/raw/master/images/github.png
 [sinas]:http://weibo.com/kayvon "新浪微博"
 
 隐式超链：
-我这里分享[我的github][]以及[新浪微博][]和[知乎][]链接给大家~[emoji][]
+我这里分享[我的github][]以及[新浪微博][]和[知乎][]链接给大家~
 [我的github]:https://github.com/kaivin/ "我的github"
 [新浪微博]:http://weibo.com/kayvon "新浪微博"
 [知乎]:https://www.zhihu.com/people/kay_vin "我的知乎"
@@ -1155,7 +1155,6 @@ Github的Markdown语法支持添加emoji表情，输入不同的符号码（两�
 
 也许这个页面会打开的很慢，页面里emoji表情太多，需要一些时间缓冲。也可查看我整理出来的[emoji][]。
 
-[emoji]:https://github.com/kaivin/markdown/blob/master/emoji.md "emoji表情"
 
 **此处实测输出冒号后并不能出现表情列表，需从官网找到你想要的表情代码，复制过来才行，所以创建了一个问题，如有热心大婶知道~，可给解惑一下~**
 
