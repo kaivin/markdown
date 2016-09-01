@@ -1152,7 +1152,7 @@ Github的Markdown语法支持添加emoji表情，输入不同的符号码（两�
 
 更多的 emoji 表情可以查看GitHub官方网页：http://www.emoji-cheat-sheet.com。
 
-也许这个页面会打开的很慢，页面里emoji表情太多，需要一些时间缓冲。也可查看我整理出来的[emoji][emoji链接]
+也许这个页面会打开的很慢，页面里emoji表情太多，需要一些时间缓冲。也可查看我整理出来的[emoji][emoji链接]。
 
 [emoji链接]:https://github.com/kaivin/markdown/blob/master/emoji.md "emoji"
 
